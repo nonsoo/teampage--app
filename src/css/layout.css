@@ -1,0 +1,34 @@
+@import url("https://fonts.google.com/specimen/roboto");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*  Font Sizes */
+  --ff-prmy: "roboto", sans-serif;
+
+  --fs-prmy: 1.12rem;
+  --fs-sec: 1.5rem;
+  --fs-tri: 2rem;
+  --fs-four: 3rem;
+
+  /* font Weights */
+  --fw-prmy: 400; /* This is regular*/
+  --fw-sec: 500; /* This is medium*/
+  --fw-tri: 700; /* This is bold*/
+
+  --prmy-text-color: #171717;
+  --sec-text-color: #ffffff;
+
+  --background-Clr: #f7f9fc;
+  --background-Clr-sec: #f7f9fc;
+  --background-Clr-tri: #ffffff;
+
+  /* borderRadius */
+  --borderRadius: 30px;
+  --boxShadow-prmy: 0 3px 6px 1px rgba(23, 23, 23, 0.06);
+}

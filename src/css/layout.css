@@ -32,3 +32,68 @@
   --borderRadius: 30px;
   --boxShadow-prmy: 0 3px 6px 1px rgba(23, 23, 23, 0.06);
 }
+
+.App {
+  padding: 2rem;
+
+  display: grid;
+  place-items: center;
+
+  font-size: var(--fs-prmy);
+  font-weight: var(--fw-prmy);
+  font-family: var(--ff-prmy);
+
+  color: var(--prmy-text-color);
+  background-color: var(--background-Clr);
+}
+
+.cardContainer {
+  margin: 5rem 0;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1.25rem;
+
+  padding: 3rem;
+
+  border-radius: var(--borderRadius);
+  background-color: var(--background-Clr-tri);
+  box-shadow: var(--boxShadow-prmy);
+
+  transition: 300ms ease;
+}
+
+.card:hover {
+  transform: translateY(-50px);
+  transform: scaleX(20px);
+}
+
+.card__Image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  border: 6px solid #f5e3fa;
+}
+
+.card__Name {
+  font-weight: var(--fw-tri);
+  font-size: var(--fs-sec);
+}
+
+.card__Email {
+  font-size: 0.95rem;
+}
+
+.card__position {
+  font-weight: var(--fw-sec);
+}

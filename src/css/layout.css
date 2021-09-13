@@ -45,6 +45,7 @@
 
   color: var(--prmy-text-color);
   background-color: var(--background-Clr);
+  height: 100%;
 }
 
 .cardContainer {
@@ -68,7 +69,7 @@
   border-radius: var(--borderRadius);
   background-color: var(--background-Clr-tri);
   box-shadow: var(--boxShadow-prmy);
-
+  cursor: pointer;
   transition: 300ms ease;
 }
 
@@ -96,4 +97,18 @@
 
 .card__position {
   font-weight: var(--fw-sec);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --prmy-text-color: #ffffff;
+    --sec-text-color: #171717;
+
+    --background-Clr: #282828;
+    --background-Clr-sec: #141414;
+  }
+
+  .card {
+    background-color: var(--background-Clr-sec);
+  }
 }

@@ -99,6 +99,21 @@
   font-weight: var(--fw-sec);
 }
 
+.searchBar {
+  border: none;
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  border-radius: 30px;
+  width: clamp(300px, 40%, 700px);
+
+  font-size: var(--fs-sec);
+  font-family: var(--ff-prmy);
+  font-weight: var(--fw-sec);
+
+  color: var(--prmy-text-color);
+  background-color: var(--background-Clr-sec);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --prmy-text-color: #ffffff;

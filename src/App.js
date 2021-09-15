@@ -16,6 +16,7 @@ function App() {
         className="searchBar"
         defaultValue={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)}
+        placeholder="Search A team member"
       />
 
       <div className="cardContainer">
